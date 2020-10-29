@@ -40,6 +40,10 @@ p{
 img {
     width: 100%;
 }
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
 /* NavBar */
 
 .navbar {
@@ -85,7 +89,7 @@ img {
 .showcase-form {
     position: relative;
     top: 60px;
-    height: 350px;
+    height: 380px;
     width: 400px;
     padding: 40px;
     z-index: 100;
